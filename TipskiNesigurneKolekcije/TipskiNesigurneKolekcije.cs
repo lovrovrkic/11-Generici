@@ -21,14 +21,14 @@ namespace Vsite.CSharp
                 // i podatak će biti pohranjen u listu...
                 osobe.Add(DateTime.Now);
 
-                // TODO: Pokrenuti program i provjeriti što će se ispisati. Ispis prekopirati u datoteku "TipskiNesigurneKolekcije1.txt".
+                // Pokrenuti program i provjeriti što će se ispisati. Ispis prekopirati u datoteku "TipskiNesigurneKolekcije1.txt".
 
 
                 // TODO: Umjesto da ispisuje objekt osoba, donju petlju promijeniti tako da u naredbi Console.WriteLine ispisuje član 'Ime' za svaku osobu. Pokreniti program, a ispis prekopirati u datoteku "TipskiNesigurneKolekcije2.txt"
 
-                foreach (var osoba in osobe)
+                foreach (Osoba osoba in osobe)
                 {
-                    Console.WriteLine(osoba);
+                    Console.WriteLine(osoba.Ime);
                 }
             }
             catch (Exception e)
