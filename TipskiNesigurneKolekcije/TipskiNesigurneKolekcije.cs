@@ -24,7 +24,7 @@ namespace Vsite.CSharp
                 // Pokrenuti program i provjeriti što će se ispisati. Ispis prekopirati u datoteku "TipskiNesigurneKolekcije1.txt".
 
 
-                // TODO: Umjesto da ispisuje objekt osoba, donju petlju promijeniti tako da u naredbi Console.WriteLine ispisuje član 'Ime' za svaku osobu. Pokreniti program, a ispis prekopirati u datoteku "TipskiNesigurneKolekcije2.txt"
+                // Umjesto da ispisuje objekt osoba, donju petlju promijeniti tako da u naredbi Console.WriteLine ispisuje član 'Ime' za svaku osobu. Pokreniti program, a ispis prekopirati u datoteku "TipskiNesigurneKolekcije2.txt"
 
                 foreach (Osoba osoba in osobe)
                 {

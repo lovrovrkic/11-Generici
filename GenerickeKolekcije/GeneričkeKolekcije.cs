@@ -11,14 +11,14 @@ namespace Vsite.CSharp
             osobe.Add(new Osoba("Marica", new DateTime(1989, 12, 1)));
             osobe.Add(new Osoba("Ivica", new DateTime(1993, 4, 2)));
 
-            // TODO: Napisati naredbu kojom se u kolekciju 'osobe' dodaje objekt nekog drugog tipa, npr. DateTime.Now i provjeriti što će prevoditelj javiti.
-
+            // Napisati naredbu kojom se u kolekciju 'osobe' dodaje objekt nekog drugog tipa, npr. DateTime.Now i provjeriti što će prevoditelj javiti.
+            //osobe.Add(DateTime.Now);
 
 
             // TODO: U donju petlju umetnuti naredbu koja će ispisati član 'Ime' svake osobe. Pokrenuti program i provjeriti ispis.
             foreach (var osoba in osobe)
             {
-
+                Console.WriteLine(osoba.Ime);
             }
 
             Console.WriteLine("Gotovo!!!");
